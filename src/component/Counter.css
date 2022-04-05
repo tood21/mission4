@@ -1,0 +1,35 @@
+body {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  font-size: 30px;
+  
+}
+
+.counter {
+  border: 1px solid black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.conut_button {
+  width: 100%;
+}
+
+.conut_button button {
+  background-color: wheat;
+  width: 50%;
+}
+
+.toggle {
+  width: 100%;
+}
+
