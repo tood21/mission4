@@ -31,7 +31,7 @@ function Counter() {
       <button
         className='toggle'
         onClick={toggleCounter}
-        style={{ backgroundColor: "blue" }}
+        style={{ backgroundColor: "red" }}
       >
         on/off
       </button>
