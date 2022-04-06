@@ -4,7 +4,7 @@ import Counter from "./Counter";
 test("the counter starts at 0", () => {
   render(<Counter />);
   const conut = screen.getByTestId("counter");
-  expect(conut).toHaveTextContent("0");
+  expect(conut).toHaveTextContent(0);
 });
 
 test("minus botton has correct text", () => {
